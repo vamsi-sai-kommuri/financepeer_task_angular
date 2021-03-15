@@ -32,7 +32,7 @@ go to the project main folder and run "ng serve" (Assuming all angular dependenc
 
 **Login Credentials:**
 
-username : Admin
+username : Admin, 
 password : 123456
 
 **Flask:** 
