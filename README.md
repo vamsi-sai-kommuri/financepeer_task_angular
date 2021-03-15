@@ -26,8 +26,8 @@ Installation instructions
 
 **angular** : 
 
-**In project folder** :
-run "npm install --save-dev @angular-devkit/build-angular "
+In project folder :
+run **"npm install --save-dev @angular-devkit/build-angular "**,
 go to the project main folder and run "ng serve" (Assuming all angular dependencies node , etc are available")
 
 **Flask:** 
