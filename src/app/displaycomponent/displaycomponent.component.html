@@ -1,0 +1,28 @@
+<app-header></app-header>
+<div class="row">
+    <h2 style="text-align:center">Uploaded data</h2>
+    
+
+    
+
+    <div class="col" style="float:initial;width: 100%;">
+            <table *ngIf="items" id="customers">
+            
+                <tr>
+                    <th>id</th>
+                    <th>User ID</th>
+                    <th>title</th>
+                    <th>body</th>
+                </tr>
+                <tr *ngFor="let user of items">
+                    <td>{{user.id}}</td>
+                    <td>{{user.userId}}</td>
+                    <td>{{user.title}}</td>
+                    <td>{{user.body}}</td>
+                </tr>
+            
+            </table>
+
+        </div>
+    
+  </div>

@@ -1,0 +1,27 @@
+<app-header></app-header>
+<div class="row">
+    <h2 style="text-align:center">Upload data</h2>
+
+	<div class="col" style="float:initial;width: 100%;text-align: center; margin-top: 5%;">
+
+			<div class="text-center"> 
+				<input class="form-control" type="file"
+						(change)="onChange($event)"> 
+
+				<button  style="color: gainsboro;background-color: green;;width: 200px;margin: 10px;height: 30px;border: 6px;cursor: pointer;" (click)="onUpload()" 
+					class="btn btn-success"> 
+					Upload 
+				</button> 
+			</div> 
+
+
+
+			<!--Flag variable is used here-->
+			<div class="container" *ngIf="loading"> 
+				<h3>Loading ...</h3> 
+			</div> 
+
+		</div>
+
+</div>
+
