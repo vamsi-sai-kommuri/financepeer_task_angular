@@ -24,9 +24,14 @@ Each time file upload will truncate the users table and load the new data
 
 Installation instructions
 
-angular : go to the project main folder and run "ng serve" (Assuming all angular dependencies node , etc are available")
+**angular** : 
 
-Flask: run following commands if flask and dependencies are not installed:
+**In project folder** :
+run "npm install --save-dev @angular-devkit/build-angular "
+go to the project main folder and run "ng serve" (Assuming all angular dependencies node , etc are available")
+
+**Flask:** 
+run following commands if flask and dependencies are not installed:
 
 pip install flask , pip install -U flask-cors, pip install flask-sqlalchemy
 
